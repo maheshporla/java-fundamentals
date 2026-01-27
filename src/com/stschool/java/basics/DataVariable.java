@@ -6,21 +6,21 @@ public class DataVariable {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter age");
-        Byte age = sc.nextByte();
-        System.out.println(" enter charge percentage");
+        System.out.println("enter age :");
+        byte age = sc.nextByte();
+        System.out.println(" enter charge percentage :");
         Byte chargePercentage = sc.nextByte();
-        System.out.println("enter weeks");
+        System.out.println("enter weeks :");
         Byte weeks = sc.nextByte();
-        System.out.println("enter months");
+        System.out.println("enter months :");
         Byte months = sc.nextByte();
-        System.out.println("enter car wheels");
+        System.out.println("enter car wheels :");
         Byte carWheels = sc.nextByte();
-        System.out.println("enter shirt price");
+        System.out.println("enter shirt price :");
         short shirtPrice = sc.nextShort();
-        System.out.println("enter mobile cases price");
+        System.out.println("enter mobile cases price :");
         short mobileCasePrice = sc.nextShort();
-        System.out.println("enter earphones price");
+        System.out.println("enter earphones price :");
         short earphonePrice = sc.nextShort();
         System.out.println("enter bag price");
         short bagPrice = sc.nextShort();
