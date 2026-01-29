@@ -7,7 +7,6 @@ public class ProductMembership {
         Scanner sc = new Scanner(System.in);
         System.out.print(" Enter product price : ");
         int ProductPrice = sc.nextInt();
-        int productPrice;
         float discountPercentage;
         int shippingCharges;
         System.out.print("enter membership : ");
@@ -33,7 +32,7 @@ public class ProductMembership {
         float productAmount = ProductPrice-discountAmount;
         float stateTax = productAmount*(STATE_TAX_PERCENTAGE/100);
         float centralTax = productAmount *(CENTRAL_TAX_PERCENTAGE/100);
-        double finalProductAmount = productAmount+ stateTax+centralTax;
+        double finalProductAmount = productAmount+ stateTax+centralTax + shippingCharges;
         System.out.println("Discount Amount : " + discountAmount);
         System.out.println("Discounted Price : " + productAmount);
         System.out.println("State Tax : " + stateTax);
